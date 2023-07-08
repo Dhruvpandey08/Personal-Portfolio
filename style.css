@@ -237,7 +237,7 @@ span
   box-shadow: 0 0 1rem var(--main-color);
 }
 
-.btn
+.btnd
 {
   display: inline-block;
   padding: 1rem 2.8rem;
@@ -254,7 +254,7 @@ span
   animation-delay: 1.8s;
 }
 
-.btn:hover
+.btnd:hover
 {
   box-shadow: none;
 }
@@ -564,8 +564,18 @@ span
   resize: none;
 }
 
-.contact form .btn
+.contact form .btns
 {
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background: var(--main-color);
+  border-radius: 4rem;
+  box-shadow: 0 0 1rem var(--main-color);
+  font-size: 1.6rem;
+  color: var(--second-bg-color);
+  letter-spacing: .1rem;
+  font-weight: 600;
+  transition: .5s ease;
   margin-top: 2rem;
   cursor: pointer;
 }
@@ -665,6 +675,21 @@ span
     padding: 10rem 3% 2rem;
   }
 
+  .skills
+  {
+    padding-bottom: 7rem;
+  }
+
+  .projects
+  {
+    padding-bottom: 7rem;
+  }
+
+  .contact
+  {
+    min-height: auto;
+  }
+
   .footer
   {
     padding: 2rem 3%;
@@ -729,6 +754,68 @@ span
   .about
   {
     flex-direction: column-reverse;
+  }
+
+  .about-col-1
+  {
+    width: 70vw;
+    margin-top: 4rem;
+  }
+
+  .skills h3
+  {
+    margin-bottom: 3rem;
+  }
+
+  .projects-container
+  {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 617px)
+{
+  .projects-container
+  {
+  grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 450px)
+{
+  html
+  {
+    font-size: 50%;
+  }
+
+  .contact form .input-box input
+  {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 365px)
+{
+  .home-img image
+  {
+    width: 90vw;
+  }
+
+  .about-col-1
+  {
+    width: 90vw;
+  }
+
+  .footer
+  {
+    flex-direction: column-reverse;
+  }
+
+  .footer p 
+  {
+    text-align: center;
+    margin-top: 2rem;
   }
 }
 

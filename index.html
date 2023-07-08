@@ -6,9 +6,13 @@
     <title>Dhruv Pandey</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
+
 
 
 <body>
@@ -30,7 +34,7 @@
     <section class="home" id="home">
         <div class="home-content">
             <h1>Hi, I'm Dhruv Pandey</h1>
-            <h4>And I'm a <span>Web Developer</span></h4>
+            <h4>And I'm a <span class="multiple-text"></span></h4>
             <p>I'm a passionate web developer specializing in frond-end development with expertise in HTML, CSS, and JavaScript</p>
              
             <div class="social-media">
@@ -39,7 +43,7 @@
                 <a href="#"><i class="bx bxl-github"></i></a>
             </div>
 
-            <a href="#" class="btn">Download Resume</a>
+            <a href="#" class="btnd">Download Resume</a>
 
         </div>
         <div class="home-img">
@@ -59,7 +63,7 @@
             <div class="about-col-1">
                 <img src="/images/img9.png">
             </div>
-            
+
             <div class="about-col-2">
                 <h1 class="sub-title">About <span>Me</span></h1>
                 <p>Hi, I am Dhruv Pandey, Currently Third Year Undergrad at Vellore Institute Of Technology Pursuing B.Tech in CSE.
@@ -206,7 +210,7 @@
                 <input type="text" name="EmailSubject" placeholder="Email Subject" required>
             </div>
             <textarea name="Message" id="" cols="20" rows="6" placeholder="Your Message" required></textarea>
-            <input type="submit" value="Send Message" class="btn" onclick="myFunction()">
+            <input type="submit" value="Send Message" class="btns" onclick="myFunction()">
             <span id="msg"></span>
         </form>
     </section>
@@ -235,9 +239,6 @@
             .catch(error => console.error('Error!', error.message))
         })        
     </script>
-    
-    <script src="script.js"></script>
-
-
+ 
 </body>
 </html>

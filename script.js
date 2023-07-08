@@ -17,3 +17,12 @@ window.onscroll = () =>
     menuIcon.classList.remove('bx-x');
     navbar.classList.remove('active');
 };
+
+
+const typed = new typed('.multiple-text', {
+    strings: ['Computer Science Student', 'Web Developer',],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+});
