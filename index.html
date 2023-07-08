@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhruv Pandey</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1;"class="active">Home</a>
+            <a href="#about" style="--i:2;">About</a>
+            <a href="#skills" style="--i:3;">Skills</a>
+            <a href="#projects" style="--i:4;">Projects</a>
+            <a href="#contact" style="--i:5;">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm Dhruv Pandey</h1>
+            <h4>And I'm a <span>Web Developer</span></h4>
+            <p>I'm a passionate web developer specializing in frond-end development with expertise in HTML, CSS, and JavaScript</p>
+             
+            <div class="social-media">
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-github"></i></a>
+            </div>
+
+            <a href="#" class="btn">Download Resume</a>
+
+        </div>
+        <div class="home-img">
+            <div class="glowing-circle">
+                <span></span>
+                <span></span>
+                <div class="image">
+                    <img src = "/images/img14.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="about" id="about">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="/images/img9.png">
+            </div>
+            
+            <div class="about-col-2">
+                <h1 class="sub-title">About <span>Me</span></h1>
+                <p>Hi, I am Dhruv Pandey, Currently Third Year Undergrad at Vellore Institute Of Technology Pursuing B.Tech in CSE.
+                    I'm a passionate web developer specializing in full-stack development with expertise in HTML, CSS, and JavaScript.
+                    <br>
+                    <br>
+                    My primary focus is on building robust and scalable applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).
+                    Beyond my professional work, I am an active contributor to the open-source community. I believe in the power of collaboration and giving back to the developer community that has helped me grow.
+                    Through my contributions, I aim to improve existing projects and create new tools that benefit fellow developers.</p>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>CSS <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>JavaScript <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>C++ <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Professional Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Web Design <span>95%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Web Development <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Software Development <span>65%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>App Development <span>50%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    
+
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="projects-container">
+            <div class="projects-box">
+                <img src="/images/todo.png" alt="">
+                <div class="projects-layer">
+                    <h4>To-Do List App</h4>
+                    <p>This is my To-Do List Web App</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <img src="/images/fooddelight.png" alt="">
+                <div class="projects-layer">
+                    <h4>Food Delivery Website</h4>
+                    <p>This is my Static Sample Food Delivery Website</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <img src="/images/calc.png" alt="">
+                <div class="projects-layer">
+                    <h4>My Calculator</h4>
+                    <p>This is my Calculator</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form name="submit-to-google-sheet" id="f">
+            <div class="input-box">
+                <input type="text" name="Name" placeholder="Full Name" required>
+                <input type="email" name="Email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="number" name="Number" placeholder="Mobile Number" required>
+                <input type="text" name="EmailSubject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="Message" id="" cols="20" rows="6" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn" onclick="myFunction()">
+            <span id="msg"></span>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; Dhruv. Made with <i class="fa fa-heart"></i> By <a href="https://github.com/Dhruvpandey08" style="color: aqua;">Me</a></p>
+        </div>
+    </footer>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzMqrimi4tnsTjPcaYCS5X3ojPrTXUMaoxE3eGFPVrG8fqRNiBiILu4p6lOxrHR2HFciw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent Successfully !"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },3000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })        
+    </script>
+    
+    <script src="script.js"></script>
+
+
+</body>
+</html>
