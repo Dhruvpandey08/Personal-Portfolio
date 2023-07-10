@@ -6,14 +6,11 @@
     <title>Dhruv Pandey</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
-
-
 
 <body>
     <header class="header">
@@ -33,14 +30,14 @@
 
     <section class="home" id="home">
         <div class="home-content">
-            <h1>Hi, I'm Dhruv Pandey</h1>
-            <h4>And I'm a <span class="multiple-text"></span></h4>
-            <p>I'm a passionate web developer specializing in frond-end development with expertise in HTML, CSS, and JavaScript</p>
+            <h1 class="unselectable">Hi, I'm Dhruv Pandey</h1>
+            <h4 class="unselectable">And I'm a <span class="multiple-text"></span></h4>
+            <p class="unselectable">I'm a passionate web developer specializing in frond-end development with expertise in HTML, CSS, and JavaScript</p>
              
             <div class="social-media">
-                <a href="#"><i class="bx bxl-linkedin"></i></a>
-                <a href="#"><i class="bx bxl-twitter"></i></a>
-                <a href="#"><i class="bx bxl-github"></i></a>
+                <a href="https://www.linkedin.com/in/dhruvpandey08/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://twitter.com/Dhruvtwts" target="_blank"><i class="bx bxl-twitter"></i></a>
+                <a href="https://github.com/Dhruvpandey08" target="_blank"><i class="bx bxl-github"></i></a>
             </div>
 
             <a href="#" class="btnd">Download Resume</a>
@@ -59,21 +56,19 @@
 
     
     <section class="about" id="about">
-        <div class="row">
-            <div class="about-col-1">
-                <img src="/images/img9.png">
-            </div>
+        <div class="about-img">
+            <img src="/images/img9.png">
+        </div>
 
-            <div class="about-col-2">
-                <h1 class="sub-title">About <span>Me</span></h1>
-                <p>Hi, I am Dhruv Pandey, Currently Third Year Undergrad at Vellore Institute Of Technology Pursuing B.Tech in CSE.
-                    I'm a passionate web developer specializing in full-stack development with expertise in HTML, CSS, and JavaScript.
-                    <br>
-                    <br>
-                    My primary focus is on building robust and scalable applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).
-                    Beyond my professional work, I am an active contributor to the open-source community. I believe in the power of collaboration and giving back to the developer community that has helped me grow.
-                    Through my contributions, I aim to improve existing projects and create new tools that benefit fellow developers.</p>
-            </div>
+        <div class="about-content">
+            <h1 class="heading">About <span>Me</span></h1>
+            <p class="unselectable">Hi, I am Dhruv Pandey, Currently Third Year Undergrad at Vellore Institute Of Technology Pursuing B.Tech in CSE.
+                I'm a passionate web developer specializing in full-stack development with expertise in HTML, CSS, and JavaScript.
+                <br>
+                <br>
+                My primary focus is on building robust and scalable applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).
+                Beyond my professional work, I am an active contributor to the open-source community. I believe in the power of collaboration and giving back to the developer community that has helped me grow.
+                Through my contributions, I aim to improve existing projects and create new tools that benefit fellow developers.</p>
         </div>
     </section>
     
@@ -173,7 +168,7 @@
                 <div class="projects-layer">
                     <h4>To-Do List App</h4>
                     <p>This is my To-Do List Web App</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
+                    <a href="https://github.com/Dhruvpandey08/To-Do-APP" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
@@ -182,7 +177,7 @@
                 <div class="projects-layer">
                     <h4>Food Delivery Website</h4>
                     <p>This is my Static Sample Food Delivery Website</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
+                    <a href="https://github.com/Dhruvpandey08/FoodDelight" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
@@ -191,7 +186,7 @@
                 <div class="projects-layer">
                     <h4>My Calculator</h4>
                     <p>This is my Calculator</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
+                    <a href="https://github.com/Dhruvpandey08/MyCalculator" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
         </div>
@@ -217,7 +212,7 @@
 
     <footer class="footer">
         <div class="footer-text">
-            <p>Copyright &copy; Dhruv. Made with <i class="fa fa-heart"></i> By <a href="https://github.com/Dhruvpandey08" style="color: aqua;">Me</a></p>
+            <p>Copyright &copy; Dhruv. Made with <i class="fa fa-heart"></i> By <a href="https://github.com/Dhruvpandey08 " target="_blank" style="color: aqua;">Me</a></p>
         </div>
     </footer>
 
@@ -239,6 +234,8 @@
             .catch(error => console.error('Error!', error.message))
         })        
     </script>
+
  
 </body>
+<script src="script.js"></script>
 </html>
