@@ -737,10 +737,21 @@ span
     flex-direction: column-reverse;
   }
 
-  .about-col-1
+  .about-content
   {
     width: 70vw;
     margin-top: 4rem;
+  }
+
+  .skills-column
+  {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .skills-row
+  {
+    flex-direction: column;
   }
 
   .skills h3
@@ -783,7 +794,7 @@ span
     width: 90vw;
   }
 
-  .about-col-1
+  .about-content
   {
     width: 90vw;
   }
@@ -799,7 +810,6 @@ span
     margin-top: 2rem;
   }
 }
-
 
 
 /*  KEYFRAMES ANIMATIONS */
@@ -889,3 +899,4 @@ span
   -ms-user-select: none;
   user-select: none;
 }
+
