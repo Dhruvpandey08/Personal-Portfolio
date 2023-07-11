@@ -103,8 +103,8 @@ section
 
 .home-img
 {
-  width: 410px;
-  height: 410px;
+  width: 370px;
+  height: 370px;
   margin-top: 50px;
 }
 
@@ -124,8 +124,8 @@ section
 {
   content: '';
   position: absolute;
-  width: 380px;
-  height: 380px;
+  width: 350px;
+  height: 350px;
   background: #1f242d;
   border-radius: 50%;
 }
@@ -148,8 +148,8 @@ section
 .glowing-circle .image
 {
   position: relative;
-  width: 380px;
-  height: 380px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   z-index: 1;
   overflow: hidden;
