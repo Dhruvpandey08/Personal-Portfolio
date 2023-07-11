@@ -195,6 +195,9 @@ span
   font-size: 5.6rem;
   font-weight: 700;
   line-height: 1.3;
+  opacity: 0;
+  animation: slideRight 1s ease forwards;
+  animation-delay: .7s;
 }
 
 .home-content p
